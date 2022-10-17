@@ -1,0 +1,18 @@
+﻿@model IEnumerable<NguyenVanToanBTH2.Models.Customer>
+<p>
+    <a class="btn btn-success" asp-action="Create">Create a new Employee</a>
+</p>
+<table class="table table-all">
+    ]
+    <tr>
+        <th>Customer ID</th>
+        <th>Customer Name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+            <tr>
+            <td>@Html.DisplayFor(m => item.CustomerId)</td>
+            <td>@Html.DisplayFor(m => item.CustomerName)</td>
+            </tr>
+    }
+</table>
