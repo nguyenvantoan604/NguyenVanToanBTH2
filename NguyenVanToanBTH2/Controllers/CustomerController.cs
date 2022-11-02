@@ -22,15 +22,15 @@ namespace NguyenVanToanBTH2.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Customer std)
+        public async Task<IActionResult> Create(Customer cs)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(std);
+                _context.Add(cs);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(std);
+            return View(cs);
         }
     }
 }

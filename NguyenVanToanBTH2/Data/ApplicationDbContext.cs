@@ -12,9 +12,9 @@ namespace NguyenVanToanBTH2.Data
         }
 
         public DbSet<Student> Students { get; set; }
-        public DbSet<Student> Persons { get; set; }
-        public DbSet<Student> Employees { get; set; }
-        public DbSet<Student> Customers { get; set; }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
 
     }

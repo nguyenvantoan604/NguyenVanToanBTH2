@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Toan\\source\\repos\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj": {}
+    "C:\\Users\\Toan\\Desktop\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Toan\\source\\repos\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj": {
+    "C:\\Users\\Toan\\Desktop\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toan\\source\\repos\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj",
+        "projectUniqueName": "C:\\Users\\Toan\\Desktop\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj",
         "projectName": "NguyenVanToanBTH2",
-        "projectPath": "C:\\Users\\Toan\\source\\repos\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj",
+        "projectPath": "C:\\Users\\Toan\\Desktop\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\NguyenVanToanBTH2.csproj",
         "packagesPath": "C:\\Users\\Toan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toan\\source\\repos\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\obj\\",
+        "outputPath": "C:\\Users\\Toan\\Desktop\\NguyenVanToanBTH2\\NguyenVanToanBTH2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Toan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

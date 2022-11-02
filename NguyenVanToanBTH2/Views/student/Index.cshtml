@@ -6,12 +6,17 @@
     <tr>
         <th>Student ID</th>
         <th>Student Name</th>
+      @*  <th></th>*@
     </tr>
     @foreach (var item in Model)
     {
         <tr>
             <td>@Html.DisplayFor(m => item.StudentID)</td>
             <td>@Html.DisplayFor(m => item.StudentName)</td>
+           @* <td>
+                <a asp-action="Edit" asp-route-id = "@item.StudentID">Sua</a>
+                <a asp-action="Delete" asp-route-id="@item.StudentID">Xoa</a>
+            </td>*@
         </tr>
     }
 </table>
